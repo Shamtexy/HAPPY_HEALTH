@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bk">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textColor="@color/btn"/>
+
+    <ImageView
+        android:id="@+id/second"
+        android:layout_width="400dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="20sp"
+        android:src="@drawable/ic_tag_faces_black_24dp" />
+    <EditText
+        android:id="@+id/nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/sickness"/>
+    <EditText
+        android:id="@+id/years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/sickness"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:text="@string/login_button"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        android:layout_marginLeft="160sp"
+        android:textSize="30sp"
+        android:background="@color/btn"/>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HAPPY HEALTH</string>
+    <string name="Cred">Credentials</string>
+    <string name="login_button">Login</string>
+    <string name="Medication">Current Medication</string>
+    <string name="Disease">Ailment:</string>
+    <string name="Medicines">Drugs</string>
+    <string name="insertDisease">Malaria</string>
+    <string name="name">Type your name here</string>
+    <string name="age">Type your age here</string>
+    <string name="drug_1">Para</string>
+    <string name="drug_2">Metro</string>
+    <string name="drug_3">Cipro</string>
+    <string name="mode_1">Oral</string>
+    <string name="mode_2">IV</string>
+    <string name="num_1">2x3</string>
+    <string name="num_2">1x2</string>
+    <string name="tablet">Drug</string>
+    <string name="how_taken">mode</string>
+    <string name="number">Dosage</string>
+
+</resources>
